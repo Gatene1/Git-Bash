@@ -1,0 +1,15 @@
+#!/bin/bash
+#This is a simple sample program to grab user input and print it to the screen
+
+echo $1
+echo $2
+#These lines will print the first and second parameters entered after the filename from the command line
+
+echo "Please Enter Your Name: "
+read name
+#This will print "Please Enter Your Name:"  to the screen, and wait for the user to put in input.
+
+echo "Nice to meet you $name"
+#This will print "Nice to meet you" followed by the input  the user put in
+#Remember, just because we ask for the user's name, the user doesn't HAVE to enter their name, they could enter their age
+#or even the street name they grew up on.
